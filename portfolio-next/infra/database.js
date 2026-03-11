@@ -9,10 +9,23 @@ async function query(queryObject) {
     password: process.env.POSTGRES_PASSWORD,
   });
 
-  await client.connect();
-  const result = await client.query(queryObject);
-  client.end();
-  return result;
+  // PONTO DE ATENÇAO.
+
+  //Com essse codigo, caso uma consulta retorne erro, nao ha mapeamento pro erro
+  // Isso faz com que a conexao fique aberta em caso de erro
+
+  //REFATORACAO
+
+  try {
+    await client.connect();
+    const result = await client.query(queryObject);
+
+    return result;
+  } catch (error) {
+    console.error(error);
+  } finally {
+    client.end();
+  }
 }
 
 export default {

@@ -23,6 +23,9 @@ async function query(queryObject) {
     return result;
   } catch (error) {
     console.error(error);
+    throw error; //com o trhow o erro não é "engolido"
+    //Assim eu consigo identificar qual erro exatamente retornado
+    //ao inves de vir um "undefined" da vida
   } finally {
     client.end();
   }

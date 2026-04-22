@@ -1,6 +1,6 @@
 # [dellano-portfolio](https://dellano-portfolio.com.br/)
 
-O [dellano-portfolio](https://dellano-portfolio.com.br/) é um site que criei com o objetivo de reunir todos os projetos que desenvolvi até aqui, onde aproveitei uma excelente oportunidade para absorver os conhecimentos para de um projeto full-stack, utilizando novas tecnologias como JS, NodeJS, NextJs.
+O [dellano-portfolio](https://dellano-portfolio.com.br/) é um site que criei com o objetivo de reunir todos os projetos que desenvolvi até aqui, onde aproveitei uma excelente oportunidade para absorver os conhecimentos do curso.dev para criação de um projeto full-stack, utilizando tecnologias que ainda não havia utilizado, como JS, NodeJS, NextJs.
 
 Esse repositório contém o código-fonte do site e da API do dellano-portfolio.
 

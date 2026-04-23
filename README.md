@@ -56,7 +56,7 @@ npm install
 
 ### Rodar o projeto
 
-Para rodar o projeto localmente, basta executar o comando abaixo:
+Para rodar o projeto localmente, basta acessar o diretório portfolio-next, com o comando `cd .\portfolio-next\` e executar o comando abaixo:
 
 ```bash
 npm run dev

@@ -48,6 +48,8 @@ docker -v
 
 ### Dependências locais
 
+*Importante: Acesse sempre o diretório `/portfolio-next` para estas ações abaixo*
+
 Com o repositório clonado e as dependências globais instaladas, você pode instalar as dependências locais do projeto:
 
 ```bash
@@ -77,9 +79,11 @@ Observações:
 
 ## Rodar os testes
 
-Lembrando que os serviços precisam estar rodand para os testes passarem, use `npm run dev`.
+Lembrando que os serviços precisam estar rodando para os testes passarem, use `npm run dev`.
 
 Há várias formas de rodar os testes dependendo do que você deseja fazer, mas o primeiro passo antes de fazer qualquer alteração no projeto é rodar os testes de forma geral para se certificar que tudo está passando como esperado. O comando abaixo irá rodar todos os serviços necessários, rodar os testes e em seguida derrubar todos os serviços.
+
+Na pasta `/portfolio-next`:
 
 ```bash
 npm test

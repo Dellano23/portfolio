@@ -56,6 +56,8 @@ npm install
 
 ### Rodar o projeto
 
+*Importante: Garanta que o docker desktop e o Node.Js estejam em execução no seu dispositivo*
+
 Para rodar o projeto localmente, basta acessar o diretório portfolio-next, com o comando `cd .\portfolio-next\` e executar o comando abaixo:
 
 ```bash

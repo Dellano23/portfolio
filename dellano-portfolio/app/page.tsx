@@ -1321,8 +1321,8 @@ export default function Home() {
                 color: "var(--text-muted)",
               }}
             >
-              Aberto a oportunidades, colaborações e novos projetos em
-              desenvolvimento full stack.
+              Aberto a oportunidades, colaborações e sugestões para melhoria dos
+              projetos =).
             </p>
             <div
               style={{

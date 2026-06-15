@@ -129,9 +129,9 @@ export default function Home() {
                 color: "#d1d5db",
               }}
             >
-              Construo APIs REST escaláveis e aplicações web com Node.js, Java e
-              .NET. Experiência no setor financeiro com diagnóstico de sistemas
-              de alta performance.
+              Desenvolvimento de APIs REST escaláveis e aplicações web com
+              Node.js, Java e .NET. Experiência no setor financeiro com
+              diagnóstico e sustentação de sistemas de alta performance.
             </p>
 
             <p
@@ -253,8 +253,8 @@ export default function Home() {
               <p style={{ fontSize: "1.05rem" }}>
                 Sou desenvolvedor{" "}
                 <span style={{ color: "var(--accent)" }}>Full Stack</span> com
-                base em JavaScript, Java e .NET, focado na construção de APIs
-                REST escaláveis e aplicações web.
+                base em JavaScript (Node.JS), Java e .NET, focado na construção
+                de APIs REST escaláveis e aplicações web.
               </p>
               <p style={{ fontSize: "1.05rem" }}>
                 Experiência prática no setor financeiro pela Nelogica, atuando
@@ -264,12 +264,12 @@ export default function Home() {
                 não-relacionais (MongoDB, PostgreSQL, MySql).
               </p>
               <p style={{ fontSize: "1.05rem", color: "#9ca3af" }}>
-                Cursei{" "}
+                Sou formado em{" "}
                 <span style={{ color: "var(--accent)" }}>
                   Análise e Desenvolvimento de Sistemas
                 </span>{" "}
-                na FIAP (2024–2025), com ênfase em engenharia de software,
-                microsserviços, DDD e DevOps. No curso tive cadeiras de
+                pela FIAP (2024–2025), com ênfase em engenharia de software,
+                microsserviços, DDD e DevOps. No curso, também tive cadeiras de
                 desenvolvimento Android nativo com Kotlin e Jetpack Compose.
               </p>
             </div>
